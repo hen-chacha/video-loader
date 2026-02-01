@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(get_trending|get_formats|download)",
+      "destination": "/api/main.py"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
